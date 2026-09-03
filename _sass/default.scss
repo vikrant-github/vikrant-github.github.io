@@ -1,0 +1,40 @@
+body {
+    color: #1F2937;
+}
+
+a {
+    color: #2563EB
+}
+
+a:visited {
+    color: #1D4ED8
+}
+
+h3,
+h3.archive__subtitle {
+    clear: both;
+    color: #0F172A;
+    font-family: "Space Grotesk";
+    font-size: 1.35em;
+}
+
+
+
+h1,
+h2 {
+    color: #0F172A;
+    font-family: "Space Grotesk";
+    font-weight: 700;
+}
+
+p,
+.sidebar p,
+.archive__item-title,
+a,
+body {
+    font-family: "Inter";
+}
+
+#main {
+    position: relative;
+}
