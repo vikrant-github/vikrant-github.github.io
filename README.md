@@ -1,2 +1,2 @@
-# vikrant-github.github.io
+# vikrant.github.io
 Portfolio website for Vikrant
