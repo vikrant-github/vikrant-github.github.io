@@ -17,6 +17,6 @@ I write about production AI and MLOps, drawing on problems and patterns I encoun
 
 {% include technicalskills.md %}
 
-### Soft Skills
+### Leadership Competencies
 
 {% include softskills.md %}

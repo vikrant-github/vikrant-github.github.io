@@ -1,15 +1,29 @@
 technical:
- - title: CSS and SCSS
-   level: Intermediate
- - title: HTML5
-   level: Intermediate
- - title: JavaScrpt
-   level: Advanced
- - title: ReactJS
-   level: Advanced
+ - title: Generative AI & LLMs
+   skills: AWS Bedrock, LLaMA 3, LangChain, RAG, Hybrid Retrieval, Weaviate, LLM Observability
+
+ - title: AI-Native Agentic Tooling
+   skills: Claude Code, Agentic AI, Multi-Agent Orchestration, Parallel Agent Workflows, MCP Integration
+
+ - title: MLOps & AI Governance
+   skills: Prefect Orchestration, GitLab, Jenkins, Model Versioning, AI Lifecycle, LLM-as-Judge, Faithfulness Evaluation, HITL, Responsible AI
+
+ - title: Machine Learning & NLP
+   skills: CatBoost, Zero-Shot NLI (BART), RoBERTa, DeBERTa, SHAP Explainability, Neural Networks, SDoH Feature Extraction
+
+ - title: Cloud & Data Platforms
+   skills: AWS EC2, ECR, Fargate, Lambda, S3, EMR, RDS, DynamoDB, GCP Vertex AI, BigQuery, Dataflow
+
+ - title: Programming & Infrastructure
+   skills: Python, SQL, PL/SQL, Docker, GPU-Based Compute
+
+ - title: Analytics & Data Engineering
+   skills: AWS Glue, Athena, SSIS, ETL Pipelines
 
 soft:
- - title: Writing
-   level: Intermediate
- - title: Leadership
-   level: Intermediate
+ - title: Strategic Thinking
+ - title: Cross-Functional Leadership
+ - title: Decision Making
+ - title: Executive Stakeholder Management
+ - title: Team Building & Mentoring
+ - title: Communication & Influence

@@ -1,6 +1,4 @@
-| Skill | Level |
-| ---- | ---- |
-{% assign skills = site.data.skills.technical | sort: "title" -%}
+{% assign skills = site.data.skills.technical -%}
 {% for skill in skills -%}
-| {{skill.title}} | {{skill.level}} |
+| {{skill.title}} | {{skill.skills}} |
 {% endfor %}
