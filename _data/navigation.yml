@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "My Work"
-    url: /mywork/
+    url: /mywork.html
   - title: "My Writing"
-    url: /mywriting/
+    url: /mywriting.html
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
