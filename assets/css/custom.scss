@@ -10,3 +10,11 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+
+h3#leadership-competencies + table {
+    width: 100%;
+}
+#leadership-competencies + table th,
+#leadership-competencies + table td {
+    width: 50%;
+}
