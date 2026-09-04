@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "MLOps Pipeline"
 date:   2026-09-03 13:26:51 +0000
 categories: work
 highlight_home: true
 tags: mlops
+description : "A production-oriented MLOps pipeline demonstrating reproducible, configuration-driven machine learning workflows."
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
