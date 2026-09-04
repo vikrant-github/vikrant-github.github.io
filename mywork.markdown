@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: archive
 title: "My Work"
 ---
-## My Work
 
 ### MLOps Pipeline
 

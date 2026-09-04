@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 # Hi! I'm Vikrant
-I’m a senior technology professional working at the intersection of MLOps, architecture, AI platforms, and engineering, with a current focus on machine learning and Generative AI, including LLMs and agentic systems. My recent work has focused on defining AI platform roadmaps, shaping technical direction, building MLOps capabilities, and leading teams through production delivery.
+I’m a senior technology professional working at the intersection of AI platforms, MLOps, architecture, and engineering, with a focus on machine learning and Generative AI, including LLMs and agentic systems. My work spans AI platform strategy, technical direction, MLOps capabilities, and leading multidisciplinary teams to deliver production AI systems.
 
-Over two decades, I’ve worked across healthcare, BFSI, and telecom, solving complex technology and platform challenges at increasing levels of technical and organizational responsibility. My experience spans distributed systems, cloud, data and analytics, machine learning, and enterprise AI platforms.
+Over two decades, I’ve worked across healthcare, BFSI, and telecom, building and evolving distributed systems, cloud platforms, data and machine learning capabilities. Today, my focus is AI and the platforms, architectures, and engineering practices required to build and operate it in production.
 
-I work with engineers, data scientists, architects, product and business teams, technology directors, and C-suite leaders across global organizations. I lead multidisciplinary teams and drive technical decisions across architecture and delivery.
+I work across engineering, data science, architecture, product, business, and technology leadership, partnering with teams and senior stakeholders across global organizations. I help shape technical strategy, make architecture decisions, and guide multidisciplinary teams from concept through production delivery.
 
-I write about production AI and MLOps, drawing on problems and patterns I encounter in practice.
+I write about production AI and MLOps, sharing practical perspectives on the architectures, engineering patterns, and challenges involved in taking AI from experimentation to real-world systems.
 
 ## My Skills
 ### Technical Skills
