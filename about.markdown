@@ -13,7 +13,8 @@ I work across engineering, data science, architecture, product, business, and te
 
 I write about production AI and MLOps, sharing practical perspectives on the architectures, engineering patterns, and challenges involved in taking AI from experimentation to real-world systems.
 
-## My Skills
+## Areas of Expertise
+
 ### Technical Skills
 
 {% include technicalskills.md %}

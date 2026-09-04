@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "My Work"
+classes: wide
 ---
 
 ### MLOps Pipeline
