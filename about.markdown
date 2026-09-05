@@ -4,6 +4,7 @@ title: About
 classes: wide
 permalink: /about/
 ---
+![vikrant](/assets/images/vikrant.png){: .avatar}
 # Hi! I'm Vikrant
 I’m a senior technology professional working at the intersection of AI platforms, MLOps, architecture, and engineering, with a focus on machine learning and Generative AI, including LLMs and agentic systems. My work spans AI platform strategy, technical direction, MLOps capabilities, and leading multidisciplinary teams to deliver production AI systems.
 

@@ -1,11 +1,11 @@
 ---
 layout: posts
-title:  "MLOps Pipeline"
-date:   2026-09-03 13:26:51 +0000
-categories: work
+title: "LLM Orchestration Platform"
+date: 2026-09-05 00:00:00 +0000
+categories: article
 highlight_home: true
-tags: mlops
-description : "A production-oriented MLOps pipeline demonstrating reproducible, configuration-driven machine learning workflows."
+tags: llm-orchestration
+description: "A configuration-driven LLM orchestration platform built with Prefect, AWS Bedrock, Python, and S3."
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

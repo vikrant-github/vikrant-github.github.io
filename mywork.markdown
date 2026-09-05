@@ -2,6 +2,8 @@
 layout: categories_work
 title: "My Work"
 classes: wide
+author: Vikrant
+author_profile: true
 ---
 
 ### MLOps Pipeline
