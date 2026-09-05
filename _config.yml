@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vikrant-github.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: vikrant-github
-
+search: true
 defaults:
   # _posts
   - scope:
@@ -37,7 +37,7 @@ defaults:
       author_profile: true
       author: Vikrant
       show_date: true
-      search: true
+      
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
