@@ -1,0 +1,12 @@
+Vikrant:
+  name        : "Vikrant."
+  bio         : "Technology Leadership, Platforms & Architecture"
+  avatar      : "/assets/images/vikrant.png"
+  location: "New Delhi, IN"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:vikrant.colab@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vikrant2/"
