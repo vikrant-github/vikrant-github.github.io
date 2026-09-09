@@ -1,0 +1,50 @@
+.theme__toggle {
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 0;
+  outline: none;
+  color: #6f777d;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    color: darken(#6f777d, 15%);
+  }
+}
+
+[data-theme="dark"] {
+  body {
+    background-color: #0B1220;
+    color: #E2E8F0;
+  }
+
+  h1, h2, h3 {
+    color: #F8FAFC;
+  }
+
+  .archive__item,
+  .archive__item-teaser {
+    border-color: #334155;
+  }
+
+  thead {
+    background-color: #1E293B;
+  }
+
+  .sidebar.sticky {
+    background-color: #164E63;
+  }
+
+  .taxonomy__index a {
+    background-color: #164E63;
+  }
+
+  .author__urls.social-icons a,
+  .author__urls.social-icons a:visited,
+  .page__footer a,
+  .page__footer a:visited {
+    color: #7FA8D9;
+  }
+}
