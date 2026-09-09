@@ -77,6 +77,16 @@ Development guidance is split by scope: a project-level [`CLAUDE.md`](CLAUDE.md)
 
 Agentic coding accelerates implementation — it does not transfer ownership of architecture or design decisions to the agent.
 
+### Agentic AI update log
+
+The following are concise examples of changes completed with agentic coding support while keeping the site's architecture and design intent intact:
+
+| Area | Update | Outcome |
+| --- | --- | --- |
+| Dark mode | Added a light/dark theme toggle and persisted user preference. | Improved readability and a more comfortable viewing experience. |
+| Visual refinement | Adjusted dark theme styling for core content, cards, and navigation elements. | Better contrast and consistency across the site. |
+| Workflow | Continued repo-aware implementation with scoped validation and design oversight. | Faster iteration without drifting from the existing architecture. |
+
 ## License
 
 No license has been specified for this repository.
