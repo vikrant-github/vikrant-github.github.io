@@ -67,6 +67,16 @@ bundle exec jekyll build
 | `assets/` | Custom stylesheets, images, and JavaScript. |
 | `_site/` | Generated site output. |
 
+## AI-Assisted Development Strategy
+
+This site was originally designed and built manually, establishing the baseline architecture, visual design, content structure, and theme customizations. Once that baseline reached a stable, mature state, ongoing development shifted toward agentic coding with [Claude Code](https://claude.com/claude-code).
+
+In this workflow, Claude Code acts as an engineering agent that implements changes within the existing architecture, while direction, architectural decisions, scope, and approval of consequential changes remain with the maintainer.
+
+Development guidance is split by scope: a project-level [`CLAUDE.md`](CLAUDE.md) defines repository-specific architecture, constraints, approval boundaries, and validation expectations, while a separate personal-level configuration outside this repository captures general working preferences that apply across projects.
+
+Agentic coding accelerates implementation — it does not transfer ownership of architecture or design decisions to the agent.
+
 ## License
 
 No license has been specified for this repository.
