@@ -17,6 +17,7 @@ The site covers AI platforms, MLOps, cloud-native systems, software architecture
 - [About](https://vikrant-github.github.io/about/): Professional background and areas of expertise.
 - [My Work](https://vikrant-github.github.io/mywork): Selected projects and engineering work.
 - [My Writing](https://vikrant-github.github.io/mywriting): Articles and technical notes.
+- [Latest Article](https://vikrant-github.github.io/mywriting): Machine Learning: The High Interest Credit Card of Technical Debt.
 
 ## Professional Profile
 
@@ -79,13 +80,10 @@ Agentic coding accelerates implementation — it does not transfer ownership of 
 
 ### Agentic AI update log
 
-The following are concise examples of changes completed with agentic coding support while keeping the site's architecture and design intent intact:
-
-| Area | Update | Outcome |
-| --- | --- | --- |
-| Dark mode | Added a light/dark theme toggle and persisted user preference. | Improved readability and a more comfortable viewing experience. |
-| Visual refinement | Adjusted dark theme styling for core content, cards, and navigation elements. | Better contrast and consistency across the site. |
-| Workflow | Continued repo-aware implementation with scoped validation and design oversight. | Faster iteration without drifting from the existing architecture. |
+| Area | Update |
+| --- | --- |
+| Dark mode | Added a light/dark theme toggle and persisted the user preference for a more comfortable reading experience. |
+| Article publishing | Added a new article to My Writing; the writing remains the author’s own, while agent-assisted workflow helped integrate it into the published site structure. |
 
 ## License
 
