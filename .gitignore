@@ -3,3 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
