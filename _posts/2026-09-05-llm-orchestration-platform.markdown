@@ -5,6 +5,8 @@ date: 2026-09-09 00:00:00 +0000
 permalink: /article/2026/09/05/llm-orchestration-platform.html
 categories: article
 highlight_home: true
+header:
+  teaser: /assets/images/ML-high-interest-credit-card-teaser.png
 tags:
   - "MLOps & Technical Debt"
 description: "How MLOps practices manage the operational cost and technical debt of production machine learning systems."
