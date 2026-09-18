@@ -55,7 +55,7 @@ In my work, I addressed this through **configuration driven workflows**, separat
 
 Once execution is repeatable, the workflow needs to run consistently.
 
-I used workflow orchestration to structure multi stage ML processing, including preprocessing, KIA processing, and Risk Model execution. Dependencies, execution order, retries, and deployments became part of the workflow rather than relying on manual coordination.
+I used workflow orchestration to structure multi stage ML processing, including preprocessing, feature engineering, and Risk Model execution. Dependencies, execution order, retries, and deployments became part of the workflow rather than relying on manual coordination.
 
 The important engineering outcome was not the orchestration tool itself. It was moving the process from **manual execution to controlled workflow execution**.
 
