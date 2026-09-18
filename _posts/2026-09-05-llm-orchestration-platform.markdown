@@ -6,11 +6,11 @@ permalink: /article/2026/09/05/llm-orchestration-platform.html
 categories: article
 highlight_home: true
 header:
-  teaser: /assets/images/ML-high-interest-credit-card-teaser.png
+  teaser: /assets/images/ml-high-interest-technical-debt-sm.png
 tags:
   - "MLOps & Technical Debt"
 description: "How MLOps practices manage the operational cost and technical debt of production machine learning systems."
-excerpt: "Machine learning can deliver significant value quickly."
+excerpt: "ML delivers value quickly, but production systems accumulate complexity across data, features, orchestration, and infrastructure, creating technical debt."
 ---
 
 Machine learning can deliver significant value quickly. As ML moves from experimentation into production, the engineering around the model becomes increasingly important.
