@@ -1,33 +1,72 @@
 ---
 layout: posts
-title:  "MLOps Pipeline"
-date:   2026-09-03 13:26:51 +0000
+title: "Production ML Pipeline Architecture"
+date: 2026-09-09 00:00:00 +0000
+permalink: /work/2026/09/03/mlops-pipeline.html
 categories: work
 highlight_home: true
-tags: mlops
-description : "A production-oriented MLOps pipeline demonstrating reproducible, configuration-driven machine learning workflows."
+tags:
+  - tags:
+  - Production MLOps  
+description: "A production ML pipeline for transforming heterogeneous source data into model-ready features and executing containerized neural-network inference at scale."
+excerpt: "A production ML pipeline using AWS and Prefect to orchestrate data processing, feature engineering, containerized neural-network inference, and downstream processing."
+header:
+  teaser: /assets/images/production-ml-pipeline-teaser.png
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+A production ML pipeline for transforming heterogeneous source data into model-ready features and executing containerized neural-network inference at scale.
 
-Jekyll requires blog post files to be named according to the following format:
+The architecture separates **data ingestion, preparation, feature engineering, model inference, downstream processing and persistence**, with Prefect providing workflow orchestration across the processing lifecycle. AWS provides the underlying storage, container execution, event-driven processing and operational infrastructure.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Architecture
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![Production ML Pipeline on AWS](/assets/images/production-ml-pipeline.png)
 
-Jekyll also offers powerful support for code snippets:
+### Data Ingestion & Preparation
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Heterogeneous source data is validated, standardized, mapped, deduplicated and enriched before being persisted in Amazon S3.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Feature Engineering
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The preparation layer consolidates the required data window and transforms it into a defined **feature model representation**.
+
+### Neural Network Inference
+
+A containerized supervised neural network consumes the engineered feature representation and performs batch inference, producing predicted annual cost and model-derived outputs.
+
+### Workflow Orchestration
+
+Prefect coordinates the processing graph across ingestion, preparation, feature engineering, inference and downstream processing through configured workflows, dependencies and deployments.
+
+### Event-Driven Processing
+
+Model outputs trigger downstream containerized processing through AWS Lambda, where results are validated, aggregated and prepared for persistence.
+
+### Persistence & Observability
+
+Results are persisted in Amazon RDS/MySQL, with CloudWatch providing centralized logging, metrics, alarms and operational visibility.
+
+
+
+## Architecture Stack
+
+**AWS** — S3 · ECS/Fargate · ECR · Lambda · RDS/MySQL · CloudWatch
+
+**ML** — Neural Networks · Feature Engineering · Batch Inference
+
+**Orchestration** — Prefect · Configuration-driven workflows
+
+**Runtime** — Python · Containers
+
+## Engineering Focus
+
+- Modular processing boundaries
+- Configuration-driven execution
+- Containerized model inference
+- Workflow orchestration
+- Event-driven downstream processing
+- Operational observability
+
+## What this demonstrates
+
+**Production ML architecture across the complete path from data ingestion to model inference and persisted analytical output.**
