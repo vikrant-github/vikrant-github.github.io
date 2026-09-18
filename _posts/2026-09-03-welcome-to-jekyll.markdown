@@ -6,7 +6,6 @@ permalink: /work/2026/09/03/mlops-pipeline.html
 categories: work
 highlight_home: true
 tags:
-  - tags:
   - Production MLOps  
 description: "A production ML pipeline for transforming heterogeneous source data into model-ready features and executing containerized neural-network inference at scale."
 excerpt: "A production ML pipeline using AWS and Prefect to orchestrate data processing, feature engineering, containerized neural-network inference, and downstream processing."
